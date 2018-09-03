@@ -1,0 +1,90 @@
+<!--
+    Hey everyone!
+    Welcome to Project One.
+    With the help of online resources, I've succesfully created the following:
+    a full on webpage with valid HTML and CSS.
+    
+    I'd love to say this journey was fairly easy, but it wasn't. It started out with a very simple idea:
+    a homepage where people can easily go to popular websites such as Google or YouTube.
+    Along the way, this idea developed into more platforms where I can learn more. I designed a functioning
+    search bar on the webpage, not able to search anything, but design-wise complete with a search icon and
+    a place to type in the search term.
+    I also learnt to use footers and keep them at the bottom of the page, as well as used paddings and borders
+    to style it. Very basic information, but it helps every bit in my journey to mastering web development.
+
+    On the 27th August 2018, I have succesfully completed Morph's Project One. No additional frameworks or
+    shortcuts were used, only pure HTML and CSS, together with flexbox.
+    No use of JavaScript, jQuery, or any other framework was used in the making of this webpage.
+-->
+
+<!DOCTYPE HTML>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- Stylesheet link -->
+    <head>
+        <div id="sitetitle"> <!-- Don't know why I wrapped a title in two divs, but okay. -->
+            <div class="container"> <!-- "neat" code. -->
+                <title>Morph's Project One</title>
+            </div>
+        </div>
+        <div id="siteheader">
+            <div class="container">
+                <h1>Quick Launcher</h1>
+            </div>
+        </div>
+    </head>
+    <br> <!-- Linebreak so the header and body (images) don't stick together. -->
+    <body> <!-- Here's where all the shortcuts are stored. -->
+        <div id="textbar">
+            <div class="container">
+                <form>
+                    <input type="text" name="searchterm">
+                </form>    
+            </div>
+        </div>
+        <br>
+        <div id="imgshortcut">
+            <div class="container">
+                <div id="image1">
+                    <div class="container">
+                        <a href="https://www.google.com" target="_blank">
+                            <img src="media/googleicon_1_125x125.png">
+                        </a>
+                    </div>
+                </div>
+                <div id="image2">
+                    <div class="container">
+                        <a href="https://facebook.com" target="_blank">
+                            <img src="media/fblogo_125x125.png">
+                        </a>
+                    </div>
+                </div>
+                <div id="image3">
+                    <div class="container">
+                        <a href="https://www.reddit.com" target="_blank">
+                            <img src="media/redditlogo_125x125.png">
+                        </a>
+                    </div>
+                </div>
+                <div id="image4">
+                    <div class="container">
+                        <a href="https://www.youtube.com" target="_blank">
+                            <img src="media/youtubelogo_125x125.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- whitespace -->
+    <div id="pagefooter">
+        <div class="container">
+            <footer>
+                This footer is wrapped in #id="pagefooter"
+            </footer>
+        </div>
+    </div>
+    </body>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.js"></script> jQuery -->
+    <!-- <script src="script.js"></script>JavaScript file should always be here -->
