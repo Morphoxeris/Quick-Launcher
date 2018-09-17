@@ -1,9 +1,17 @@
 # Quick-Launcher
 
-Quick Launcher was the first web-development project I attempted after weeks of trying to master HTML and CSS.
+**Quick Launcher**
 
-The original plan was to create a website where website-logo-shortcut-thingies would direct users to the website, and maybe throw
-in a couple lines of JavaScript.
+Quick Launcher was a startup project I decided to try after a while of learning web-development.
+I decided to build a website where I could include logos and clickon links that redirect others to
+popular social media sites, such as Reddit.
 
-I did end up mastering more than expected, learning how to utilize footers and even ended up creating a textbox and styled it to make it
-look like a search bar.
+I **did** end up making more than I expected, adding in a semi-functional search bar, styled the page a little,
+and it turned out to be a pretty succesfull and good project! :P
+
+However, I did *not* include JavaScript as I couldn't seem to get a hold of the language.
+But it's still good though! I'll try to incorporate a **little** bit. Slowly.
+
+But, as an extremely "noob", or a newcomer to the web development scene, thank you for coming over to look at my website's source code!
+
+*P.S. Messiest HTML you will ever see in your entire web-dev journey.*
