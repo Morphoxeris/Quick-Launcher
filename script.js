@@ -4,6 +4,5 @@
 */
 
 const thisText = "Hello, World!"
-const textArray = thisText.split(' ').slice(1);
-console.log(textArray);
+
 console.log(thisText);
