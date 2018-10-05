@@ -1,0 +1,3 @@
+- integrate flexbox css where possible
+- write shorter and more concise css
+- try to incorporate javascript where possible

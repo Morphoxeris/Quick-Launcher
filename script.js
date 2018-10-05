@@ -9,7 +9,6 @@ const button2 = document.getElementById("button2");
 
 // Using 0,0 as input within the browser triggers a TypeError.
 function power() {
-
     const input = prompt("Please include two numbers, using commas to indicate the two different integers.");
     const inputArr = input.split(",");
 
@@ -20,7 +19,6 @@ function power() {
     var y = inputArr[1];
 
     return Math.round(Math.pow(x, y));
-
 }
 
 function randomPw() {
