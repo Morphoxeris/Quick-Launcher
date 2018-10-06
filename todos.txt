@@ -1,0 +1,6 @@
+- integrate flexbox css where possible
+- write shorter and more concise css
+- try to incorporate javascript where possible  
+    - maybe a little jquery?
+- im looking to find platforms for back-end testing instead of having
+
